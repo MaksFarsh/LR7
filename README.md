@@ -13,11 +13,11 @@
 
 ```mermaid
 graph TD
-    Start((Начало)) --> Input[/Ввод num/]
+    Start((Начало)) --> Input[/num/]
     Input --> Switch{switch num}
     
-    Switch -- 1..12 --> PrintYes[/Вывод: Римская цифра num/]
-    Switch -- default --> PrintNo[/Вывод: Данного числа нет в диапазоне/]
+    Switch -- 1..12 --> PrintYes[/Римская цифра num/]
+    Switch -- default --> PrintNo[/Данного числа нет в диапазоне/]
     
     PrintYes --> End((Конец))
     PrintNo --> End
