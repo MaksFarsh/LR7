@@ -11,17 +11,7 @@
 
 ## 2. Блок-схема
 
-```mermaid
-graph TD
-    Start((Начало)) --> Input[/num/]
-    Input --> Switch{switch num}
-    
-    Switch -- 1..12 --> PrintYes[/Римская цифра num/]
-    Switch -- default --> PrintNo[/Данного числа нет в диапазоне/]
-    
-    PrintYes --> End((Конец))
-    PrintNo --> End
-```
+![Формула](ProcessOn-latex140602.png)
 
 ## 3. Реализация программы
 
